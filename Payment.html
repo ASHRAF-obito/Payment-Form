@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+  
+
+<body>
+  <div id="div">
+     
+  
+  
+  <form>
+    <h1>PAYMENT FORM</h1>
+
+    <hr>
+
+    <div>
+    <h2 id="contact">
+CONTACT INFO
+</h2>
+
+    <P>NAME: <input type="text" id="name" placeholder="Enter your name" name="name"></P>
+
+    <P>GENDER:
+      <select >
+        <option value="">SELECT</option>
+        <option value="male">MALE</option>
+        <option value="female">FEMALE</option>
+        <option value="other">OTHER</option>
+        </select></P>
+
+    
+    <fieldset><legend>ARE YOU ABOVE 18:</legend>
+    <p> <input name="18" type="radio" value="yes"  /> YES     <br>    <input name="18" value ="No" type="radio"/> NO </p></fieldset>
+
+    <p> <legend>ADDRESS: </legend><textarea rows="5" cols="30" placeholder="enter your address" name="address" id="address"></textarea></p>
+
+    <p>
+       EMAIL: <input type="email" id="email" placeholder="Enter your E-mail" name="email" required >
+    </p>
+
+    <p>
+       PINCODE: <input type="number" id="pincode" required >
+    </p>
+    </div>
+    <div>
+<h2>
+PAYMENT INFO
+</h2>
+
+    <p>D.O.B : <input type="date"  value="date"> </p>
+
+    <p>
+       CVV <input type="password">
+       
+    </p>
+      <input type=button type="submit" id="submit" value="PAY" onclick="alert('THANK YOU FOR PAYMENT')" >
+    </div>
+  </form>
+  </div>
+  
+</body>
+
+</html>
